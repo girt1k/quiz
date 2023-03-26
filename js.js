@@ -178,7 +178,7 @@ function handleNextButton(){
     }
 };
 
-nextButton,addEventListener("click", () =>{
+nextButton.addEventListener("click", () =>{
     if(currentQuestionIndex <questoins.length){
         handleNextButton();
     } else {
